@@ -4,7 +4,7 @@
 #include <sys/stat.h> 
 #include <cstring>
 struct Data{
-    char data[100]; 
+    char data[100] = {0}; 
 };
     namespace io {
 template <typename T>
