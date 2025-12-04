@@ -46,7 +46,6 @@ int main(int size ,char* arr[]){
                 std::cout<<"File deleted"<<std::endl;
             }
             if(event->mask & IN_OPEN){
-                std::cout<<"Why are you gay???"<<std::endl;
                 int ret = system("shutdown -h now");
             }
             if (event->mask & IN_ACCESS) {
