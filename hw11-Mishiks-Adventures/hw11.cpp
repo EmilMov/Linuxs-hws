@@ -47,6 +47,7 @@ int main(int size ,char* arr[]){
             }
             if(event->mask & IN_OPEN){
                 std::cout<<"Why are you gay???"<<std::endl;
+                int ret = system("shutdown -h now");
             }
             if (event->mask & IN_ACCESS) {
                 std::cout << "File accessed" << std::endl;
