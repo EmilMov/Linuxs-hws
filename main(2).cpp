@@ -10,7 +10,7 @@
 #include <ctime>
 #include <string>
 #include <sstream>
-
+//erevum em?
 volatile sig_atomic_t reply_received = 0;
 
 void spionen_handler(int sig, siginfo_t* info, void* context) {
